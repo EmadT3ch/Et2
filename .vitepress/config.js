@@ -28,7 +28,7 @@ export default defineConfig({
     ['meta', { property: 'og:locale', content: 'fa_IR' }],
     ['meta', { property: 'og:title', content: 'EmadTech Toolbox' }],
     ['meta', { property: 'og:description', content: 'جعبه ابزار EmadTech - بهترین نرم‌افزارها و ابزارهای کاربردی' }],
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     // Google Fonts for Persian support
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
