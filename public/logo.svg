@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#gradient)" stroke="url(#borderGradient)" stroke-width="10"/>
+  
+  <!-- Toolbox Shape -->
+  <rect x="60" y="80" width="80" height="50" rx="5" fill="#ffffff" stroke="#646cff" stroke-width="2"/>
+  <rect x="65" y="85" width="70" height="8" rx="4" fill="#646cff"/>
+  
+  <!-- Tools -->
+  <!-- Wrench -->
+  <path d="M75 100 L85 110 L83 112 L73 102 Z" fill="#ff6b6b" stroke="#e55656" stroke-width="1"/>
+  <circle cx="77" cy="102" r="2" fill="#ffffff"/>
+  
+  <!-- Screwdriver -->
+  <rect x="95" y="95" width="2" height="20" rx="1" fill="#4ecdc4" transform="rotate(45 96 105)"/>
+  <rect x="94" y="93" width="4" height="4" rx="2" fill="#45b7b8" transform="rotate(45 96 95)"/>
+  
+  <!-- Hammer -->
+  <path d="M110 105 L118 97 M115 100 L122 93" stroke="#ffd93d" stroke-width="2" stroke-linecap="round"/>
+  <rect x="119" y="91" width="6" height="4" rx="1" fill="#f0c814"/>
+  
+  <!-- Gears -->
+  <circle cx="120" cy="115" r="8" fill="none" stroke="#a8e6cf" stroke-width="2"/>
+  <circle cx="120" cy="115" r="3" fill="#88d8a3"/>
+  
+  <!-- Binary Code -->
+  <text x="70" y="45" font-family="monospace" font-size="12" fill="#646cff" opacity="0.7">010101</text>
+  <text x="100" y="165" font-family="monospace" font-size="12" fill="#646cff" opacity="0.7">101010</text>
+  
+  <!-- EmadTech Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#646cff">EmadTech</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#646cff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#535bf2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "emadtech-toolbox",
+  "version": "1.0.0",
+  "description": "جعبه ابزار EmadTech - بهترین نرم‌افزارها و ابزارهای کاربردی",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "toolbox",
+    "software",
+    "windows",
+    "android",
+    "tools",
+    "persian",
+    "farsi"
+  ],
+  "author": "EmadTech",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.0"
+  }
+}
